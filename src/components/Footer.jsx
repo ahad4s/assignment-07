@@ -38,21 +38,40 @@ export default function Footer() {
                 {/* social menu */}
                 <div>
                     <h3 className="font-bold mb-2">Social Links</h3>
-                    <p className="flex items-center gap-2 hover:text-gray-300 cursor-pointer">
+                    <a href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 hover:text-gray-300 cursor-pointer"
+                    >
                         <FaTwitter className="text-white" /> @CS - Ticket System
-                    </p>
-                    <p className="flex items-center gap-2 hover:text-gray-300 cursor-pointer">
+                    </a>
+                    <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 hover:text-gray-300 cursor-pointer"
+                    >
                         <FaLinkedin className="text-white" /> @CS - Ticket System
-                    </p>
-                    <p className="flex items-center gap-2 hover:text-gray-300 cursor-pointer">
+                    </a>
+                    <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 hover:text-gray-300 cursor-pointer"
+                    >
                         <FaFacebook className="text-white" /> @CS - Ticket System
-                    </p>
-                    <p className="flex items-center gap-2 hover:text-gray-300 cursor-pointer">
+                    </a>
+                    <a
+                    href="mailto:support@cst.com"
+                    className="flex items-center gap-2 hover:text-gray-300 cursor-pointer"
+                    >
                         <FaEnvelope className="text-white" /> support@cst.com
-                    </p>
+                    </a>
                 </div>
             </div>
-            
+
+            {/* copyright divider line */}
+            <hr className="border-gray-700 mt-6" />
             {/* copyright text */}
             <p className="text-center text-gray-500 text-sm mt-6">
                 © 2025 CS — Ticket System. All rights reserved.
